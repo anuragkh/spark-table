@@ -1,0 +1,267 @@
+Column selectivity: 1/16
+Row selectivity: 1000/1000
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 2/4
+Row selectivity: 385/385
+Column selectivity: 2/4
+Row selectivity: 385/385
+Column selectivity: 3/4
+Row selectivity: 385/385
+Column selectivity: 4/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name < '': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name <= '': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name > '': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name >= '': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name = '': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name < 'Z': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name <= 'Z': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name > 'Z': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name >= 'Z': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name = 'Z': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name < 'Las Vegas': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name <= 'Las Vegas': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name > 'Las Vegas': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name >= 'Las Vegas': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name = 'Las Vegas': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name < 'Aberdeen': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name <= 'Aberdeen': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name > 'Aberdeen': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name >= 'Aberdeen': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name = 'Aberdeen': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name < 'Bronxville': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name <= 'Bronxville': Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Name > 'Bronxville': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name >= 'Bronxville': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Name = 'Bronxville': Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Length < 359: Filter selectivity: 127/385
+Row selectivity: 385/127
+Column selectivity: 1/4
+Length <= 359: Filter selectivity: 128/385
+Row selectivity: 385/128
+Column selectivity: 1/4
+Length > 359: Filter selectivity: 257/385
+Row selectivity: 385/257
+Column selectivity: 1/4
+Length >= 359: Filter selectivity: 258/385
+Row selectivity: 385/258
+Column selectivity: 1/4
+Length = 359: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Length < 109: Filter selectivity: 42/385
+Row selectivity: 385/42
+Column selectivity: 1/4
+Length <= 109: Filter selectivity: 44/385
+Row selectivity: 385/44
+Column selectivity: 1/4
+Length > 109: Filter selectivity: 341/385
+Row selectivity: 385/341
+Column selectivity: 1/4
+Length >= 109: Filter selectivity: 343/385
+Row selectivity: 385/343
+Column selectivity: 1/4
+Length = 109: Filter selectivity: 2/385
+Row selectivity: 385/2
+Column selectivity: 1/4
+Area < -1.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area <= -1.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area > -1.0: Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Area >= -1.0: Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Area = -1.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 0.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area <= 0.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area > 0.0: Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Area >= 0.0: Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Area = 0.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 999.2929: Filter selectivity: 2/385
+Row selectivity: 385/2
+Column selectivity: 1/4
+Area <= 999.2929: Filter selectivity: 2/385
+Row selectivity: 385/2
+Column selectivity: 1/4
+Area > 999.2929: Filter selectivity: 383/385
+Row selectivity: 385/383
+Column selectivity: 1/4
+Area >= 999.2929: Filter selectivity: 383/385
+Row selectivity: 385/383
+Column selectivity: 1/4
+Area = 999.2929: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 1618.15: Filter selectivity: 3/385
+Row selectivity: 385/3
+Column selectivity: 1/4
+Area <= 1618.15: Filter selectivity: 3/385
+Row selectivity: 385/3
+Column selectivity: 1/4
+Area > 1618.15: Filter selectivity: 382/385
+Row selectivity: 385/382
+Column selectivity: 1/4
+Area >= 1618.15: Filter selectivity: 382/385
+Row selectivity: 385/382
+Column selectivity: 1/4
+Area = 1618.15: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 9.0: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area <= 9.0: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area > 9.0: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area >= 9.0: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area = 9.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 659.0: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area <= 659.0: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area > 659.0: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area >= 659.0: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area = 659.0: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 592.0080539761581: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area <= 592.0080539761581: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area > 592.0080539761581: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area >= 592.0080539761581: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area = 592.0080539761581: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Area < 236.3135253351938: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area <= 236.3135253351938: Filter selectivity: 1/385
+Row selectivity: 385/1
+Column selectivity: 1/4
+Area > 236.3135253351938: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area >= 236.3135253351938: Filter selectivity: 384/385
+Row selectivity: 385/384
+Column selectivity: 1/4
+Area = 236.3135253351938: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Airport = false: Filter selectivity: 385/385
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Row selectivity: 385/385
+Column selectivity: 1/4
+Airport = true: Filter selectivity: 0/385
+Row selectivity: 385/0
+Column selectivity: 16/16
+Row selectivity: 1000/1000
