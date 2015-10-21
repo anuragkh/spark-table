@@ -53,11 +53,11 @@ case class TableRelation(location: String, userSchema: StructType = null)(@trans
       val before = prunedFilteredDF.count()
       prunedFilteredDF = prunedFilteredDF.filter(filterStr)
       val after = prunedFilteredDF.count()
-      logger.write(s"$filterStr: Filter selectivity: $after/$before\n")
+      logger.write(s"$filterStr: Filter selectivity: $after/$before (${after.toDouble/before.toDouble})\n")
     }
     )
     val rowAfter = prunedFilteredDF.count()
-    logger.write(s"Row selectivity: $rowBefore/$rowAfter\n")
+    logger.write(s"Row selectivity: $rowAfter/$rowBefore (${rowAfter.toDouble/rowBefore.toDouble})\n")
     logger.close()
 
     prunedFilteredDF.rdd
